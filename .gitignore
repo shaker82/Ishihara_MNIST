@@ -1,0 +1,11 @@
+*venv/*
+__pycache__/*
+IshiharaSimulate/__pycache__/*
+daltonize/__pycache__/*
+output_dir/PFiles/*
+output_dir/SVG/*
+ishiharaMC.py
+.ipynb_checkpoints/*
+Untitled.ipynb
+daltonize/*
+PngToSvg.py
