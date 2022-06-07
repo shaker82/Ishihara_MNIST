@@ -94,6 +94,9 @@ For detailed description of the plates, types of manipulation and simulation of 
     * `Random_plates`
     * `Random_colors`
 
+### A sample of different plate coloring
+![](All_part_plates.png)
+
 ## Running the notebook
 
 Before firing up the jupyter notebook, install the jupyter kernel for the virtual environment:
@@ -123,4 +126,3 @@ sha1sum: 9c203453edb4f2f82010f4fe7a097b60020e3e3b
 sha256sum: 33d695997d6f0a470fd33d697c183d6f076a5d2a592cd52e8ef5a6873aab1c9d
 
 sha512sum: b385b41c7e2433b0af3b07bf66dd1016920d7ae7e8c9883f77d285713c85a67e585f749dab89fb85094f48a33139ef624bcd4040241c22b51061db61c07125fc
-"# Ishihara_MNIST" 
