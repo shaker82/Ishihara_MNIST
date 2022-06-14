@@ -1,0 +1,6 @@
+[submodule "IshiharaMC"]
+	path = IshiharaMC
+	url = https://github.com/gkiril/IshiharaMC
+[submodule "PNGToSVG"]
+	path = PNGToSVG
+	url = https://github.com/gkiril/PNGToSVG.git

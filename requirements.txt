@@ -1,7 +1,8 @@
-Pillow>=9.0
-numpy>=1.22.4
-matplotlib>=3.5.2
-scipy>=1.8.1
-scikit-learn>=1.1.1
-torch>=1.11
-torchvision>=0.12
+pillow
+numpy
+matplotlib
+scipy
+scikit-learn
+torch
+torchvision
+daltonize
