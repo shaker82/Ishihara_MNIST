@@ -46,7 +46,8 @@ In this section, we explain how to generate the images which is time consuming. 
 want to skip this step, please download the images
 from the table below [`circled MNIST`](#CircledMNIST). Unzip the file and place the unzipped `PFiles` folder in `output_dir`.
 
-To get the `circled MNIST` data, [IshiharaConvert.py](IshiharaConvert.py) will produce SVG files and pickle files and then merge them to create the `circled MNIST`. The following command shows how IshiharaConvert.py can be called:
+To get the `circled MNIST` data, [IshiharaConvert.py](IshiharaConvert.py) will produce SVG files and pickle files and then merge them to create the `circled MNIST`. At first, uncompress the MNIST provided in the `Data` folder (JPG format).
+The following command shows how IshiharaConvert.py can be called:
 ```
 python IshiharaConvert.py --data_path Data/MNIST --out_path output_dir
 ```
