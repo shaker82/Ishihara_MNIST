@@ -34,6 +34,7 @@ An example below of a manipulated plate: [`plate 8 Sim p`](#Plate8Simp).
 
 4. [IshiharaImagesExportImport.py](IshiharaImagesExportImport.py): This helping script serves the purpose of compressing images of a created plate to tensors in a pickle file and vice versa. It is also offered under the [LICENSE.txt](Licensing/NLE_LICENSE.txt) from NEC Laboratories Europe GmbH.
 
+Also see the notebook tutorial, [TransformMNIST.ipynb](TransformMNIST.ipynb) or [TransformMNIST.html](TransformMNIST.html).
 ## Generating images
 
 In this section, we explain how to generate the images which is time consuming. If you
