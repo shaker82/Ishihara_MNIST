@@ -1,0 +1,20 @@
+Concerning the data: We offer the created circled MNIST as well as the generated plates under license Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), following MNIST's licensing scheme. See https://creativecommons.org/licenses/by-sa/3.0/
+
+Concerning the framework:
+We offer a software package for creating different types of Ishihara plates. The repository includes three main scripts and one helping script:
+- IshiharaConvert.py: This file serves the purpose of creating the circled MNIST dataset. It is offered under a license from NEC Laboratories Europe GmbH, see the file NLE_LICENSE.txt.
+- IshiharaCreateDS.py: This script can be used to create colored Ishihara plates after the creation of circled MNIST. It contains multiple plate creators and uncolored plate manipulators. It is also offered under a license from NEC Laboratories Europe GmbH, see the file NLE_LICENSE.txt.
+- IshiharaCreateSimDal.py: This file contains six colored plate manipulators to perform simulation and daltonization applied to each of protanopia, deuteranopia, and tritanopia. It is also offered under GNU GPL version 2. See https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+ This script is the only part of our framework that uses the daltonize library.
+- IshiharaImagesExportImport.py: This helping script serves the purpose of compressing images of a created plate to tensors in a pickle file and vice versa. It is also offered under a license from NEC Laboratories Europe GmbH, see the file NLE_LICENSE.txt.
+
+Used libraries
+- pillow:  licensed under the open source HPND License: https://raw.githubusercontent.com/python-pillow/Pillow/main/LICENSE
+- numpy: BSD license: https://github.com/numpy/numpy/blob/main/LICENSE.txt
+- matplotlib: BSD compatible license: https://matplotlib.org/stable/devel/license.html
+- scipy: BSD 3-Clause "New" or "Revised" License: https://github.com/scipy/scipy/blob/main/LICENSE.txt
+- scikit-learn: permissive simplified BSD license: https://github.com/scikit-learn/scikit-learn/blob/main/COPYING
+- torch: BSD: https://github.com/pytorch/pytorch/blob/master/LICENSE
+- torchvision: BSD 3-Clause "New" or "Revised" License: https://github.com/UiPath/torchvision/blob/master/LICENSE
+- daltonize: GNU General Public License v2.0: https://github.com/joergdietrich/daltonize/blob/master/COPYING
+
