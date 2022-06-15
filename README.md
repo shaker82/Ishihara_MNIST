@@ -1,7 +1,7 @@
-# Ishihara-like MNIST
+# Ishihara MNIST
 
 This is the repository that provides the code to reproduce the results of the
-corresponding paper. The code converts MNIST digit images into Ishihara coloblind test
+corresponding paper. The code converts MNIST digit images into Ishihara colorblind test
 images. Additionally to the base files, this code includes a Jupyter notebook that shows
 how to use the code.
 
@@ -10,7 +10,7 @@ how to use the code.
 Note that we used Python 3.9 for the experiments.
 
 1. Clone this repository;
-2. In the folder of the repository (e.g., `ishihara-like-mnist`), initialize the git
+2. In the folder of the repository (e.g., `Ishihara MNIST`), initialize the git
    submodules by
    ```bash
    git submodule init
@@ -39,10 +39,11 @@ An example below of a manipulated plate: [`plate 8 Sim p`](#Plate8Simp).
 
 We also offer an interactive tutorial for the simulation and creation of the Ishihara MNIST images on Kaggle (<a href"https://www.apache.org/licenses/LICENSE-2.0">APACHE lincense</a>): <a href="https://www.kaggle.com/code/ammarshaker/transformmnist">https://www.kaggle.com/code/ammarshaker/transformmnist</a>.
 For a static view of the tutorial, see the notebooks [TransformMNIST.ipynb](TransformMNIST.ipynb) or [TransformMNIST.html](TransformMNIST.html).
+We also offer the complete data on Kaggle under the DOI:\url{10.34740/kaggle/dsv/3808029}.
 
 ## Generating images
 
-In this section, we explain how to generate the images which is time consuming. If you
+In this section, we explain how to generate the images, which is a time-consuming operation. If you
 want to skip this step, please download the images
 from the table below [`circled MNIST`](#CircledMNIST). Unzip the file and place the unzipped `PFiles` folder in `output_dir`.
 
@@ -58,20 +59,19 @@ After creating the `circled MNIST`, multiple plates can be made and manipulated 
 python IshiharaCreateDS.py --data_path output_dir/PFiles --out_path output_dir/PFiles --plate 20 --manipulation 1 
 ```
 
-To generate `plate 1` from the Ishihara's test, run the following command:
+To generate `plate 1` from Ishihara's test, run the following command:
 
 ```
 python IshiharaCreateDS.py --data_path output_dir/PFiles --out_path output_dir/PFiles --plate 1 --manipulation 1 
 ```
 
-To generate `plate 4` with with flipping `above_line` manipulation:
+To generate `plate 4` with flipping `above_line` manipulation, run the following command:
 
 ```
 python IshiharaCreateDS.py --data_path output_dir/PFiles --out_path output_dir/PFiles --plate 4 --manipulation 4
 ```
 
-For detailed description of the plates and the manipulation functions, see the arguments provided in `IshiharaCreateDS.py` in
-variables `Manipulation_dic` and `Plates`.
+For a detailed description of the plates and the manipulation functions, see the arguments provided in `IshiharaCreateDS.py` in the variables `Manipulation_dic` and `Plates`.
 
 * Manipulation options:
     * 1: `No_Manipulation`
@@ -171,7 +171,7 @@ URL: https://drive.google.com/file/d/1HCGXeLbfc7_CFLn5AwEdk0SEAOYurnWI
 Sha256sum: e889ee771db307cf195e2d7cf7c0541c8ae933f85508e544615e0b0b4e709db8
 Size: 1199MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images of the only circles plate compressed in two pickle files.
+Description: This file contains images of the only circles plate compressed in two pickle files.
 
 Only_Circles.
 └─ Train_images.
@@ -192,7 +192,7 @@ URL: https://drive.google.com/file/d/1uVqpOyOQF8H1q7_nYC5fMvgqo0CR5wYs
 Sha256sum: c46ecc9f75b3c5dadaca4aa043c7a325cc09f18ba78733ece79f79af8e5ee274
 Size: 468MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images of the only dots plate compressed in two pickle files.
+Description: This file contains images of the only dots plate compressed in two pickle files.
 
 Only_Dots.
 └─ Train_images.
@@ -213,7 +213,7 @@ URL: https://drive.google.com/file/d/1UnNgYk8JQQadSrpiqnhqocXJXROzcirt
 Sha256sum: 6f2cec0e8e64d3c1fe41ade33cfde3b1185f81abc4f1c39c297eb03c95d89f9a
 Size: 2178MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images of plate 1 compressed in two pickle files.
+Description: This file contains images of plate 1 compressed in two pickle files.
 
 Plate_1.
 └─ Train_images.
@@ -234,7 +234,7 @@ URL: https://drive.google.com/file/d/1GuNDKfsW6qNvkM06KHzRNzMMrvpxkhM6
 Sha256sum: 98e707fe78a6402da7ca6f1c91412b9eac2b8fb9403e89b80b15fa34e430f6c9
 Size: 3101MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images of the random colors plate compressed in two pickle files.
+Description: This file contains images of the random colors plate compressed in two pickle files.
 
 Random_colors.
 └─ Train_images.
@@ -256,7 +256,7 @@ URL: https://drive.google.com/file/d/1IdNFILSDXofBHR7-v3YN_TCA_AgzCJm2
 Sha256sum: b266827b246a085411304657f16e1961a133d0b3a6820e0e60f87450f60076d7
 Size: 2669MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images of plate 1 changed with the uncolored manipulation function above_line compressed in two pickle files.
+Description: This file contains images of plate 1 changed with the uncolored manipulation function above_line compressed in two pickle files.
 
 Plate_1_above_line.
 └─ Train_images.
@@ -277,7 +277,7 @@ URL: https://drive.google.com/file/d/1D86ghvI5XMtnXwiWugPHpq2cp2UUTW9b
 Sha256sum: 168c601205b2f5df687b488a03f27894cb0bd5c0ee661c3ec155bad4068fac94
 Size: 2929MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images of plate 4 changed with the uncolored manipulation function chess_board compressed in two pickle files.
+Description: This file contains images of plate 4 changed with the uncolored manipulation function chess_board compressed in two pickle files.
 
 Plate_4_chess_board.
 └─ Train_images.
@@ -298,7 +298,7 @@ URL: https://drive.google.com/file/d/1A8Xgvye4hdvbBbhX81-LJpwhJEGBCN1c
 Sha256sum: a361eac0829262dde6870fab96d74ffd030f7386a8b3b311d6565785edecf3c9
 Size: 2700MB
 license:  Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0.
-Description:This file contains images ofplate 8 changed with the colored manipulation function simulate_protanopia compressed in two pickle files.
+Description: This file contains images of plate 8 changed with the colored manipulation function simulate_protanopia compressed in two pickle files.
 
 Plate_8_Sim_p.
 └─ Train_images.
@@ -314,7 +314,7 @@ Usage: This data can be used directly for training and testing using the enclose
 
 ## Contribution
 
-You are more to welcome to contribute to the code development! In this case, make sure
+You are most to welcome to contribute to the code development! In this case, make sure
 you have installed pre-commit (`pip install pre-commit`) and that all checks are passed
 before committing. Additionally, we use **[black](https://github.com/psf/black)** code
 formatting with 88 character limit.
