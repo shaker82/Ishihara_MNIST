@@ -23,18 +23,21 @@ We offer a software package for creating different types of Ishihara plates. Add
 For a comprehensive overview of the required licenses, please see [Licenses_Info.txt](Licensing/Licenses_Info.txt).
 The repository includes three main scripts and one helping script:
 1. [IshiharaConvert.py](IshiharaConvert.py): This file serves the purpose of creating the `circled MNIST` dataset. It is offered under the [LICENSE.txt](Licensing/NLE_LICENSE.txt) from NEC Laboratories Europe GmbH.
+
 An example of what is created can be found below in [`circled MNIST`](#CircledMNIST).
 
 2. [IshiharaCreateDS.py](IshiharaCreateDS.py): This script can be used to create colored Ishihara plates after the creation of `circled MNIST`. It contains multiple plate creators and uncolored plate manipulators. It is also offered under the [LICENSE.txt](Licensing/NLE_LICENSE.txt) from NEC Laboratories Europe GmbH.
 Examples of colored plates: [`plate 1`](#Plate1), [`only circles`](#OnlyCircles), and [`random colors`](#RandomColors).
+
 An example of a manipulated plate: [`plate 1 above_line`](#Plate1aboveline).
 
 3. [IshiharaCreateSimDal.py](IshiharaCreateSimDal.py): This file contains six colored plate manipulators to perform simulation and daltonization applied to each of protanopia, deuteranopia, and tritanopia. It is also offered under <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GPL version 2</a>.
+
 An example below of a manipulated plate: [`plate 8 Sim p`](#Plate8Simp).
 
 4. [IshiharaImagesExportImport.py](IshiharaImagesExportImport.py): This helping script serves the purpose of compressing images of a created plate to tensors in a pickle file and vice versa. It is also offered under the [LICENSE.txt](Licensing/NLE_LICENSE.txt) from NEC Laboratories Europe GmbH.
 
-We also offer an interactive tutorial for the simulation and creation of the Ishihara MNIST images on Kaggle: <a href="https://www.kaggle.com/code/ammarshaker/transformmnist">https://www.kaggle.com/code/ammarshaker/transformmnist</a>.
+We also offer an interactive tutorial for the simulation and creation of the Ishihara MNIST images on Kaggle (<a href"https://www.apache.org/licenses/LICENSE-2.0">APACHE lincense</a>): <a href="https://www.kaggle.com/code/ammarshaker/transformmnist">https://www.kaggle.com/code/ammarshaker/transformmnist</a>.
 For a static view of the tutorial, see the notebooks [TransformMNIST.ipynb](TransformMNIST.ipynb) or [TransformMNIST.html](TransformMNIST.html).
 
 ## Generating images
